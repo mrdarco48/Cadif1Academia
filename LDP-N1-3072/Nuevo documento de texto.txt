@@ -1,0 +1,5 @@
+Nombre
+Area del curso
+costo del curso
+monto inicial
+monto de las cuotas mensuales a cancelar

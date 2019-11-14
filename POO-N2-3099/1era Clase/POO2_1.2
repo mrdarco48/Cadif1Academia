@@ -1,0 +1,20 @@
+algoritmo 
+    definir vend1 como vendedor 
+	vend1: nuevo vendedor()
+	mostrar "Introduzca el nombre del vendedor" 
+	leer vend1.nombreVendedor 
+	mostrar "Introduzca el monto de autos vendidos" 
+	leer vend1.ventasRealizadas 
+	
+	mostrar "El sueldo del vendedor es" vend1.salarioBase+vend1.ventasRealizadas*200+vend1.valorTotalVentas*0.15 
+fin algoritmo 
+
+Clase vendedorAutos
+     definir nombreVendedor como caracter 
+     Constante salarioBase como entero =500000
+	 Constante comision como entero =200000
+	 definir ventasRealizadas como entero 
+	 definir porcentajeDeVentas como real 
+	 definir valorTotalVentas como real 
+	 definir montoTotal_Salario como real	 
+Fin Clase

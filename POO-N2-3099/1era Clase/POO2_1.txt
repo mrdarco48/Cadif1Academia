@@ -1,0 +1,11 @@
+claseAlumno 
+    definir nombre como caracter 
+	definir examen1 como real
+	definir examen2 como real
+	definir examen3 como real 
+	definir evaluacion_Continua como real 
+	definir Trabajo_Practico como real 
+Fin clase 
+
+
+

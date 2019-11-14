@@ -1,0 +1,21 @@
+subproceso Fecha(dia Por Referencia,mes Por Referencia,año Por Referencia)
+       Mostrar "Porfavor Ingrese el Dia >" sin saltar 
+	   leer dia
+	   Mostrar "Bien.. Ahora Ingrese el Mes >" sin saltar 
+	   leer mes 
+	   Mostrar "Por Ultimo.. Ingre el año >" sin saltar 
+	   leer año
+finSubproceso    
+      
+SubProceso mostrarFecha(dia,mes,año)
+       mostrar "La Fecha es... /" dia "/" mnes "/" año "/"
+finSubproceso
+
+Algoritmo POO_2.1
+     definir dia como entero
+	 definir mes como entero
+	 definir año como entero 
+	 
+	Fecha(dia,mes,año)
+	mostrarFecha(dia,mes,año)
+finAlgoritmo

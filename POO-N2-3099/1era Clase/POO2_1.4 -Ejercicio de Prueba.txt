@@ -1,0 +1,29 @@
+Clase cliente 
+    definir nombreCliente como caracter 
+	definir montoCuotaInicial como real 
+	definir montoCuotasMensuales como real	
+Fin clase
+
+Clase compañia 
+    constante porcentajeCuota como real 
+	definir cuotaInicial como real 
+	definir cotasMensuales como real
+    definir precioVehiculo como real 	
+Fin clase 
+
+Algoritmo Ejercicio
+    definir comp1 como compañia 
+    comp1: nuevo compañia()
+
+    definir clien1 como cliente 
+    clien1: nuevo compañia()
+
+	 Metodo leerCaracteres() 
+	    Mostrar "Porfavor Ingrese el nombre del cliente" Sin saltar 
+		leer clien1.nombreCliente 
+		Mostrar "Muy bien señor " clien1.nombreCliente " La empresa ofrece una cuota inicial de " (comp1.cuotaInicial*(30/100)) " Ingrese el monto de la cuota inicial" 
+		leer clien1.montoCuotaInicial 
+		Mostrar "Excelente..."
+		Mostrar "El costo inicial fue aceptado, las cuotas mensuales que usted debe pagar tienen un monto de " comp1 cuotasMensuales
+		
+finAlgoritmo 

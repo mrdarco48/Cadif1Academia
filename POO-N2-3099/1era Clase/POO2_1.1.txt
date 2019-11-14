@@ -1,0 +1,9 @@
+Clase vendedorAutos
+     definir nombreVendedor como caracter 
+     Constante salarioBase como entero =500000
+	 Constante comision como entero =200000
+	 definir ventasRealizadas como entero 
+	 definir porcentajeDeVentas como real 
+	 definir valorTotalVentas como real 
+	 definir montoTotal_Salario como real	 
+Fin Clase
